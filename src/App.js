@@ -8,9 +8,13 @@ import 'bulma/css/bulma.css'
 function App() {
   return (
     <div>
-        <div>
-            Personal digital assistance
-        </div>
+        <section className="hero is-primary">
+            <div className="hero-body">
+                <p className="title">
+                    Personal digital assistance
+                </p>
+            </div>
+        </section>
 
         <div className="container">
             <section className="section">
@@ -20,6 +24,7 @@ function App() {
                             title="Alexa" 
                             handle="@alexa99"
                             image = {AlexaImage}
+                            description = "It was created by Amazon"
                         />
                     </div>
 
@@ -28,6 +33,7 @@ function App() {
                             title="Cortona" 
                             handle="@cortona32"
                             image = {CortonaImage}
+                            description = "Created by Microsoft"
                         />
                     </div>
 
@@ -36,6 +42,7 @@ function App() {
                             title="Siri" 
                             handle="@siri01"
                             image = {SiriImage}
+                            description = "Created by Apple and is being based out"
                         />
                     </div>
                 </div>
